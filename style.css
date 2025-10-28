@@ -1,0 +1,97 @@
+:root {
+  --primary: #007aff;
+  --text: #222;
+  --light: #555;
+  --bg: #fff;
+  --accent: #f5f5f5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", system-ui, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  margin: 0;
+  line-height: 1.6;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+header h1 {
+  font-size: 1.4rem;
+}
+
+nav a {
+  margin-left: 20px;
+  color: var(--light);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: var(--primary);
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px 60px;
+  background: var(--accent);
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+
+.cta {
+  display: inline-block;
+  background: var(--primary);
+  color: white;
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-top: 16px;
+}
+
+.features {
+  display: grid;
+  gap: 30px;
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.feature {
+  text-align: center;
+}
+
+.footer-cta {
+  text-align: center;
+  padding: 60px 20px;
+  background: var(--accent);
+}
+
+.policy {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  font-size: 0.9rem;
+  color: var(--light);
+  background: var(--accent);
+}
